@@ -25,6 +25,7 @@ function createGrid(color = "black") {
         box.style.width = `${boxSize}px`;
         box.style.height = `${boxSize}px`;
         box.style.boxSizing = "border-box";
+        box.style.backgroundColor = "white";
         box.addEventListener("mouseover", () => {
             box.style.backgroundColor = color;
         });
@@ -64,7 +65,7 @@ opacityButton.addEventListener("click", () => {
         if (opacity < 1) {
             box.addEventListener("mouseover", () => {
                 box.style.opacity = opacity;
-                opacity += 0.1;
+                opacity += 0.01;
             });
         }
     });
