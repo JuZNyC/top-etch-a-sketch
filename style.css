@@ -1,0 +1,11 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: 960px;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #000;
+}
