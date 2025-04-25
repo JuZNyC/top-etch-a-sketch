@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -5,7 +12,16 @@
     align-items: center;
     width: 960px;
     height: 960px;
+    min-width: 960px;
+    min-height: 960px;
     margin: 0px;
     padding: 0px;
     border: 2px solid #000;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
